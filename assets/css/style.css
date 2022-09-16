@@ -125,13 +125,16 @@ section {
   margin-right: 6px;
 }
 .header .logo span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #292D34;
+  color: #52A1C3;
   font-family: "Poppins", sans-serif;
   padding: 4px;
   margin-top: 3px;
+}
+.header .logo span:hover {
+  color: #012970;
 }
 
 /* navbar */
@@ -338,14 +341,14 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #292D34;
+  color: #333333;
 }
 .home h2 {
   color: #333333;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
-.home .btn-get-started {
+/* .home .btn-get-started {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
@@ -368,6 +371,53 @@ section {
 }
 .home .btn-get-started:hover i {
   transform: translateX(5px);
+} */
+
+
+.button-52 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  margin-top: 60px;
+  outline: 0;
+  border: 2px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #52A1C3;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+ 
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
 }
 .home .home-img {
   text-align: right;
@@ -427,6 +477,9 @@ section {
   margin-bottom: 18px;
   margin-top: 18px;
 }
+.projects .box h2:hover {
+  color: #52A1C3;
+}
 .projects .box h4 {
   font-size: 16px;
   color: #5c666f;
@@ -453,10 +506,10 @@ section {
 .contact .mail i {
   font-size: 38px;
   line-height: 0;
-  color: #52A1C3;
+  color: #012970;
 }
 .contact .mail:hover i {
-  color: #012970;
+  color: #52A1C3;
 }
 /* .contact .mail h3 {
   font-size: 20px;
