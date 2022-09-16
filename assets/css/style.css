@@ -491,8 +491,19 @@ section {
 .projects .box:hover img {
   transform: scale(1);
 }
-
-
+.tool {
+  display: flex;
+  justify-content: center;
+}
+.tool .content {
+  margin: 12px 12px 0px 0px;
+  padding: 8px 12px;
+  background-color: rgb(241, 241, 241);
+  cursor: default;
+  font-size: 8px;
+  font-weight: 500;
+  border-radius: 0.25rem;
+}
 
 
 /* Contact */
