@@ -433,13 +433,22 @@ section {
 
 /* projects */
 
+/* .projects {
+  background-color: #a7e4ff;
+}
+.projects h1{
+  color: #333333;
+} */
 .projects .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 88, 112, 0.08);
+  box-shadow: 0px 0px 0px 0.5px rgb(0 0 0 / 3%), 0px 3px 8px rgb(0 0 0 / 12%);
   border-radius: 1rem;
   text-align: center;
   transition: 0.3s;
   height: 100%;
+  background-color: #fff;
+  /* border-style: solid;
+  border-width: 0.25rem; */
 }
 .projects .box img {
   padding: 30px;
