@@ -14,12 +14,12 @@ a {
 }
 
 a:hover {
-  color: #717ff5;
+  color: #012970;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Sections */
@@ -320,7 +320,7 @@ section {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #BB7E7E;
+  color: #52A1C3;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -341,7 +341,7 @@ section {
   color: #292D34;
 }
 .home h2 {
-  color: #444444;
+  color: #333333;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -409,7 +409,8 @@ section {
 
 .projects .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 5px rgba(1, 88, 112, 0.08);
+  border-radius: 1rem;
   text-align: center;
   transition: 0.3s;
   height: 100%;
@@ -419,20 +420,21 @@ section {
   transition: 0.5s;
   transform: scale(1.1);
 }
-.projects .box h1 {
+.projects .box h2 {
   font-size: 28px;
   color: #012970;
-  font-weight: 700;
-  margin-bottom: 18px;
-}
-.projects .box p {
-  font-size: 20px;
-  color: #778796;
   font-weight: 600;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.projects .box h4 {
+  font-size: 16px;
+  color: #5c666f;
+  font-weight: 400;
   margin-bottom: 12px;
 }
 .projects .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px rgba(1, 88, 112, 0.08);
 }
 .projects .box:hover img {
   transform: scale(1);
@@ -443,28 +445,31 @@ section {
 
 /* Contact */
 
-.contact .info-box {
-  color: #444444;
+.contact .mail {
+  /* color: #444444; */
   /* background: #fafbff; */
   padding: 30px;
 }
-.contact .info-box i {
+.contact .mail i {
   font-size: 38px;
   line-height: 0;
   color: #52A1C3;
 }
-.contact .info-box h3 {
+.contact .mail:hover i {
+  color: #012970;
+}
+/* .contact .mail h3 {
   font-size: 20px;
   color: #012970;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
-.contact .info-box p {
+.contact .mail p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-}
+} */
 
 
 @-webkit-keyframes animate-loading {
