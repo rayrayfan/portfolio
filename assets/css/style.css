@@ -121,7 +121,8 @@ section {
   line-height: 0;
 }
 .header .logo img {
-  max-height: 40px;
+  max-height: 30px;
+  margin-left: 12px;
   margin-right: 6px;
 }
 .header .logo span {
